@@ -1,0 +1,32 @@
+{
+  "name": "profile-api-endpoint",
+  "version": "1.0.0",
+  "description": "RESTful API endpoint that returns profile information with dynamic cat facts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "profile",
+    "cat-facts"
+  ],
+  "author": "Ibraheem Bello",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
